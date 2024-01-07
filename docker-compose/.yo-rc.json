@@ -1,0 +1,14 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "blog", "store"],
+    "clusteredDbApps": [],
+    "deploymentType": "docker-compose",
+    "directoryPath": "../",
+    "dockerRepositoryName": "mraible",
+    "gatewayType": "SpringCloudGateway",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "ZTY3MmE4OWU2NDExMzA0ODU0Yjk3YmE5YzU3NWIyMWI0NzQ1NjFkZmFmNzI2YzI4OGU5NzlmYjhiOGVlMzhkYzc2ZWFlOTkyMzIwYTBhY2JhMTk2MTUwYzgwNmFiOGIyOTkyOA==",
+    "monitoring": "no",
+    "serviceDiscoveryType": "consul"
+  }
+}
