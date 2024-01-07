@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "blog": {
+        "applicationIndex": 1,
+        "clientFramework": "react",
+        "serverPort": "8081"
+      },
+      "store": {
+        "applicationIndex": 2,
+        "clientFramework": "react",
+        "serverPort": "8082"
+      }
+    },
+    "authenticationType": "oauth2",
+    "baseName": "gateway",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "devServerPort": 9060,
+    "entities": [],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "MzI3MTc5MDFhOWE0ZGExNWJiMmNiY2Q5ZTA0M2ExZTYwMzYwM2Q5OWU0MDg2Y2UwYzZhZGYzM2JhNDdkYWExY2IxYWRkMWExZmQ5ZWQ2OGZjMTA5MjFjOTA5ZWNkZDdhN2EwYzVmMjk2ZDc2M2EzMzE5OTQ2NzNmNDhjMGVjNTU=",
+    "languages": ["en"],
+    "microfrontends": [
+      {
+        "baseName": "blog"
+      },
+      {
+        "baseName": "store"
+      }
+    ],
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/okta/developer/gateway",
+    "packageName": "com.okta.developer.gateway",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress"]
+  }
+}
