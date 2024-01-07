@@ -1,0 +1,30 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 2,
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "baseName": "store",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "devServerPort": 9062,
+    "enableHibernateCache": false,
+    "entities": ["Product"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "YTQ3MTYzMTE1OTBiOTY0N2ExN2M4NGJhYzA2Y2VlZWVjZmUwNTI0YmFjZDY2NDRlYjIyNTJiYTExNjFkZGY3MTA2M2ExY2ZmYzM4YTNiMzJkZDdkZGRkNzhiNTI2NGI0Y2U1YmI1NjVkNTAzOWU3ODY0NmEyMDlhNzZhMmYzMzk=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1704647883000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/okta/developer/store",
+    "packageName": "com.okta.developer.store",
+    "prodDatabaseType": "mongodb",
+    "reactive": true,
+    "serverPort": "8082",
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress"]
+  }
+}
