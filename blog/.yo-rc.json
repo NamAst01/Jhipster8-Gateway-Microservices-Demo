@@ -1,0 +1,30 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 1,
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "baseName": "blog",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "databaseType": "neo4j",
+    "devDatabaseType": "neo4j",
+    "devServerPort": 9061,
+    "enableHibernateCache": false,
+    "entities": ["Blog", "Post", "Tag"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "ODQzNjYwNWExOThhMzMzMGZjYjk3ODUzNzI2NDFjZDkxNDRiODBhNTIzMWQ3YjRjMGU3N2QyOTNhZDk0YjY2MDk3NjkxYWFiMTg2N2IxOTQxYjYxMGNiYjU4ZWRlNDYzMjljZjUwNDc2ZDZjOTNkMDU4NDAzOTM0Y2JhMDNhZGQ=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1704648003000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/okta/developer/blog",
+    "packageName": "com.okta.developer.blog",
+    "prodDatabaseType": "neo4j",
+    "reactive": true,
+    "serverPort": "8081",
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress"]
+  }
+}
